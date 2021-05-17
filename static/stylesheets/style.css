@@ -1,0 +1,85 @@
+body * {
+	/* outline: 1px dashed red; */
+}
+body {
+	position: relative;
+	/* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+	background-color: #cc8800;
+	/* background-image: url("https://www.transparenttextures.com/patterns/black-scales.png"); */
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+header {
+	/* width: 1440px; */
+	margin: 0 auto 10px auto;
+	background: #aa7100;
+	/* padding: 20px; */
+	border-bottom: 12px solid #960;
+}
+
+header nav .navbar-brand {
+	font-size: 2rem;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.container {
+	width: 1440px;
+	margin: 0 auto;
+	/* text-align: center; */
+	position: relative;
+}
+
+.container img {
+	width: 250px;
+	height: 250px;
+	margin: 0.5rem;
+	border-radius: 50%;
+	border: 0.5rem solid #ffa900;
+}
+
+.jumbotron {
+	background-color: rgba(233, 236, 239, 0.8) !important;
+}
+
+.btn-primary {
+	border-color: #aa7100 !important;
+	background: #aa7100 !important;
+}
+
+.btn-primary.active {
+	border-color: #640 !important;
+	background: #640 !important;
+}
+
+fieldset {
+	background-color: rgba(254, 195, 85, 0.8);
+	padding: 20px;
+	/* border: 5px solid #fda501; */
+	box-shadow: 1px 0px 5px 11px rgba(253, 165, 1, 0.75);
+	-webkit-box-shadow: 1px 0px 5px 11px rgba(253, 165, 1, 0.75);
+	-moz-box-shadow: 1px 0px 5px 11px rgba(253, 165, 1, 0.75);
+}
+legend {
+	background-color: #feb122;
+	color: white;
+	padding: 5px 10px;
+	width: 50%;
+}
+
+.details-section h1 span {
+	font-style: italic;
+}
+
+.details-section div {
+	padding: 20px;
+	background: #ffa900;
+	font-size: 1.1rem;
+	margin: 1rem 0;
+}
+
+.details-section div span {
+	font-weight: bold;
+}

@@ -1,0 +1,28 @@
+<%- include('includes/header'); -%>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="<%= cat.path %>" alt="<%= cat.name %>">
+                </div>
+                <div class="col-md-6 details-section">
+                    <h1>Details Page for <span><%= cat.name %></span></h1>
+
+                    <div><span>Favorite food</span>: <%= cat.favorite_food %></div>
+                    <div><span>Age</span>: <%= cat.age %>  </div>
+                   
+                    <div>
+                        <span>Sleeping spots</span>:
+                        <ul>
+                        <% for (let sleeping_spot in cat.sleeping_spots){ %>
+                            <li>
+                                <%=  cat.sleeping_spots[sleeping_spot] %>
+                            </li>
+                        <% } %>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

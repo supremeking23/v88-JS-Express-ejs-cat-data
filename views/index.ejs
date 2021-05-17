@@ -1,0 +1,15 @@
+<%- include('includes/header'); -%>
+
+        <div class="container">
+            <% for (let cat in cats){ %>
+            <a href="/cat/<%= cats[cat].id %>">
+                <img src="<%= cats[cat].path %>" alt="<%= cats[cat].name %>" />
+            </a>
+            <!-- <img src="/images/AmericanBobtail.jpg" alt="AmericanBobtail" />
+            <img src="/images/AmericanCurlSHA.jpg" alt="AmericanCurlSHA" />
+            <img src="/images/AmericanShorthair.jpg" alt="AmericanShorthair" /> -->
+           
+            <% } %>
+        </div>
+	</body>
+</html>
